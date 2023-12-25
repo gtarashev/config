@@ -1,0 +1,35 @@
+# spawn terminal terminal
+alt + Return
+	st
+# spawn firefox
+alt + w
+	firefox
+# dmenu
+alt + r
+	dmenu_run -fn "JetBrainsMono:size=14"
+
+# window based shortucts (with /bin/sh to work for all systems)
+# network manager
+alt + shift + w
+	st /bin/sh -c -e nmtui
+# htop
+alt + shift + r
+	st /bin/sh -c -e htop
+
+# function keys
+XF86MonBrightnessDown
+	xbacklight -dec 10
+XF86MonBrightnessUp
+	xbacklight -inc 10
+XF86TouchpadToggle
+	(synclient | grep 'TouchpadOff.*1' && synclient TouchpadOff=0) || synclient TouchpadOff=1
+XF86PowerOff
+	sysact
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle	
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -3%	
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +3%	
+XF86AudioMicMute
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle

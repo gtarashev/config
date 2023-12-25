@@ -1,0 +1,80 @@
+# Enable colours
+autoload -U colors && colors
+
+# Configuring PS1
+export PS1="[%(?.%F{green}√%f.%F{red}?%f)] %B%F{magenta}%2~%f%b > "
+autoload -Uz vcs_info
+precmd_vcs_info() { vcs_info }
+precmd_functions+=( precmd_vcs_info )
+setopt prompt_subst
+RPROMPT=\$vcs_info_msg_0_
+zstyle ':vcs_info:git:*' formats '%F{cyan}(%b)%r%f'
+zstyle ':vcs_info:*' enable git
+
+# Enable history and set history size & cache file
+HISTSIZE=10000
+SAVEHIST=10000
+HISTFILE=~/.config/zsh/.history
+
+# Enable autocomplete
+autoload -U compinit
+zstyle ':completion:*' menu select
+compinit
+_comp_options+=(globdots)
+
+# vi mode
+bindkey -v
+export TIMEOUT=1
+
+# change cursor when in vi mode
+function zle-keymap-select {
+	if [[ ${KEYMAP} == vicmd ]] ||
+	   [[ $1 = block ]]; then
+		echo -ne '\e[1 q'
+	elif [[ ${KEYMAP} == main ]] ||
+		 [[ ${KEYMAP} == viins ]] ||
+		 [[ ${KEYMAP} == '' ]] ||
+		 [[ $1 = 'beam' ]]; then
+		echo -ne '\e[5 q'
+	fi
+}
+zle -N zle-keymap-select
+zle-line-init() {
+	zle -K viins 
+	echo -ne "\e[5 1"
+}
+zle -N zle-line-init
+echo -ne '\e[5 q'
+preexec() { echo -ne '\e[5 q' ;}
+
+# Preferred editor for local and remote sessions
+if [[ -n $SSH_CONNECTION ]]; then
+  export EDITOR='nvim'
+else
+  export EDITOR='nvim'
+fi
+
+# vi mode
+bindkey -v
+
+# syntax highlighting
+source /home/jojito/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+PATH="$HOME/.cargo/bin:$HOME/.local/bin:$HOME/Discord:$PATH"
+
+# alias
+alias ls="exa"
+alias manmenu="$HOME/scripts/small/dmenumanselect.sh"
+alias readmail="cat /var/spool/mail/$USER"
+alias vi="nvim"
+alias lout="kill -9 -1"
+alias mkgroff="~/.config/groff/makegroff.bash"
+alias mail="neomutt"
+alias q="exit"
+alias token-master="cat $HOME/github/master-token"
+alias wpaper="$HOME/scripts/small/wpaper.sh"
+alias l="exa -laH"
+alias c="clear -x"
+alias rem="rm -ir"
+alias wpaper="$HOME/github/arch-config/scripts/small/wpaper.sh"
+alias cm41="cat $HOME/github/master-token-cm41"
