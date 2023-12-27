@@ -1,21 +1,3 @@
-python3 -m pdb lz77-encoder.py test1 > test
-cd documents/Exeter/ECM1414/CA
-celear
-clear
-ls
-python -m pdb lz77-encoder.py
-clear
-python -m pdb lz77-encoder.py test1
-clea
-clear
-./lz77-encoder.py test1 > test
-cat test
-./lz77-encoder.py test1
-echo abcdefghijklmnopqrstuvwxyz > test1
-clear
-./lz77-encoder.py test1
-clear
-./lz77-encoder.py test1
 clear
 vi test
 echo "" > test1
@@ -10114,4 +10096,22 @@ poweroff
 sudo poweroff
 ls
 cat ~/.zshrc
+q
+ls
+clear
+cd github/config
+vi install.bash
+rm -rf ~/.zshrc
+./install.bash
+clear
+git add -A
+git commit -m "Added some seperate sym links"
+mv ~/.config/discord ~/.config/zathura dotfiles/config
+clear
+./install.bash
+git add -A
+git commit -m "Added config files for discord and zathura"
+cd Downloads
+chmod 755 balenaEtcher-1.18.11-x64.AppImage
+./balenaEtcher-1.18.11-x64.AppImage
 q

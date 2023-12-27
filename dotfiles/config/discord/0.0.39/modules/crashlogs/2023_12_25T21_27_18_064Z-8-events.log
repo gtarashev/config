@@ -1,4 +1,0 @@
-2023-12-25T21:27:18.413Z 25: ✅ webContents.did-finish-load web2
-2023-12-25T21:27:18.513Z 26: window.close win1
-2023-12-25T21:27:18.516Z 27: webContents.destroyed web1
-2023-12-25T21:27:18.517Z 28: window.closed win1
