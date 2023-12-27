@@ -35,7 +35,7 @@ while true; do
 	echo -n "Setting up bashrc... "
 	ln -fLs $dir/dotfiles/bashrc ~/.bashrc && echo "DONE" || echo "FAILED"
 	echo -n "Setting up zshrc... "
-	echo "source ~/.config/zsh/zshrc" > ~/.zshrc && echo "DONE" || echo "FAILED"
+	echo "source ~/.config/zsh/zshrc" >> ~/.zshrc && echo "DONE" || echo "FAILED"
 
 	break
 

@@ -1,9 +1,3 @@
-clear
-ls
-clear
-ls
-clear
-ls
 python3 -m pdb lz77-encoder.py test1 > test
 cd documents/Exeter/ECM1414/CA
 celear
@@ -10118,3 +10112,6 @@ q
 startx
 poweroff
 sudo poweroff
+ls
+cat ~/.zshrc
+q
