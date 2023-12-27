@@ -10115,3 +10115,10 @@ cd Downloads
 chmod 755 balenaEtcher-1.18.11-x64.AppImage
 ./balenaEtcher-1.18.11-x64.AppImage
 q
+./Downloads/balenaEtcher-1.18.11-x64.AppImage
+clear
+ls
+cd Downloads
+ls
+ls
+rm -rf Nobara-39-Official-2023-12-24.iso
