@@ -1,0 +1,171 @@
+c_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-12-22 23:25:08.496] [7146] (audio_send_stream.cc:233): AudioSendStream::ConfigureStream: {rtp: {ssrc: 225628, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 32000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-12-22 23:25:09.363] [7146] (rtcp_receiver.cc:358): OnPeriodicRttUpdate: Timeout: No increase in RTCP RR extended highest sequence number.
+[2023-12-22 23:25:10.278] [8468] (encryptor.cpp:152): Encrypted audio: 50245, video: 0, failed: 0
+[2023-12-22 23:25:10.278] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:25:11.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 423
+[2023-12-22 23:25:11.150] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 423, rtt: 35
+[2023-12-22 23:25:12.925] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 75
+[2023-12-22 23:25:12.925] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1000, samples: 480000, rate: 47952, rate diff: 0%, level: 0
+[2023-12-22 23:25:13.413] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 211224, noise canceller process time: 80927 [ms]
+[2023-12-22 23:25:13.413] [7154] (captured_audio_processor.cpp:93): Audio frame: 211224, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 7
+[2023-12-22 23:25:16.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 424
+[2023-12-22 23:25:16.152] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 424, rtt: 36
+[2023-12-22 23:25:18.006] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 118523, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:25:18.006] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:25:18.006] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 96 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:25:18.006] [7146] (connection.cpp:915): Memory usage: 454 MB, CPU usage: 33%
+[2023-12-22 23:25:18.277] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-12-22 23:25:18.336] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-12-22 23:25:18.640] [8468] (rtcp_sender.cc:474): Sender Report {ssrc: 225628, ntp: 3912269118:2751613747, rtp_timestamp: 44104046, last_rtp_timestamp: 100523520, last_frame_capture_time_ms: 3491578, now_us: 3491577902, rtp_rate: 48}
+[2023-12-22 23:25:20.284] [8468] (encryptor.cpp:152): Encrypted audio: 50746, video: 0, failed: 0
+[2023-12-22 23:25:20.284] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:25:21.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 425
+[2023-12-22 23:25:21.152] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 425, rtt: 36
+[2023-12-22 23:25:22.935] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 87
+[2023-12-22 23:25:22.935] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 0
+[2023-12-22 23:25:23.439] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 212226, noise canceller process time: 81401 [ms]
+[2023-12-22 23:25:23.440] [7154] (captured_audio_processor.cpp:93): Audio frame: 212226, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 6
+[2023-12-22 23:25:26.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 426
+[2023-12-22 23:25:26.150] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 426, rtt: 34
+[2023-12-22 23:25:28.039] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 119527, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:25:28.039] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:25:28.039] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 80 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:25:28.039] [7146] (connection.cpp:915): Memory usage: 469 MB, CPU usage: 81%
+[2023-12-22 23:25:30.289] [8468] (encryptor.cpp:152): Encrypted audio: 51246, video: 0, failed: 0
+[2023-12-22 23:25:30.290] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:25:31.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 427
+[2023-12-22 23:25:31.143] [7154] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2023-12-22 23:25:31.151] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 427, rtt: 35
+[2023-12-22 23:25:32.024] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-12-22 23:25:32.070] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-12-22 23:25:32.882] [7102] (discord.cpp:763): JS console: ["%c[ComponentDispatchUtils]","ComponentDispatch.subscribe: Attempting to add a duplicate listener","POPOUT_CLOSE"]
+[2023-12-22 23:25:32.945] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 71
+[2023-12-22 23:25:32.945] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 0
+[2023-12-22 23:25:33.466] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 213228, noise canceller process time: 81803 [ms]
+[2023-12-22 23:25:33.466] [7154] (captured_audio_processor.cpp:93): Audio frame: 213228, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 15
+[2023-12-22 23:25:36.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 428
+[2023-12-22 23:25:36.151] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 428, rtt: 36
+[2023-12-22 23:25:38.060] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 120528, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:25:38.060] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:25:38.060] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 72 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:25:38.060] [7146] (connection.cpp:915): Memory usage: 479 MB, CPU usage: 24%
+[2023-12-22 23:25:40.296] [8468] (encryptor.cpp:152): Encrypted audio: 51747, video: 0, failed: 0
+[2023-12-22 23:25:40.296] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:25:41.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 429
+[2023-12-22 23:25:41.155] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 429, rtt: 39
+[2023-12-22 23:25:42.955] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 75
+[2023-12-22 23:25:42.955] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1000, samples: 480000, rate: 47952, rate diff: 0%, level: 0
+[2023-12-22 23:25:43.471] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 214230, noise canceller process time: 82288 [ms]
+[2023-12-22 23:25:43.471] [7154] (captured_audio_processor.cpp:93): Audio frame: 214230, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 6
+[2023-12-22 23:25:45.773] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-12-22 23:25:45.827] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-12-22 23:25:46.115] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 430
+[2023-12-22 23:25:46.152] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 430, rtt: 36
+[2023-12-22 23:25:47.257] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1176601433236324505 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-22 23:25:47.366] [7102] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1176601432703651922/1176601433236324505"]
+[2023-12-22 23:25:47.555] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1176601433236324505 isBefore:false isAfter:false"]
+[2023-12-22 23:25:48.040] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1183970519079469076 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-22 23:25:48.079] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 121531, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:25:48.079] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:25:48.079] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 49 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:25:48.079] [7146] (connection.cpp:915): Memory usage: 496 MB, CPU usage: 95%
+[2023-12-22 23:25:48.420] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 18 messages for 1183970519079469076 isBefore:false isAfter:false"]
+[2023-12-22 23:25:48.960] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1176911484043939952 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-22 23:25:49.053] [7102] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1176601432703651922/1176911484043939952"]
+[2023-12-22 23:25:49.449] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1176911484043939952 isBefore:false isAfter:false"]
+[2023-12-22 23:25:50.322] [8468] (encryptor.cpp:152): Encrypted audio: 52248, video: 0, failed: 0
+[2023-12-22 23:25:50.322] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:25:51.116] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 431
+[2023-12-22 23:25:51.153] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 431, rtt: 35
+[2023-12-22 23:25:52.965] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 1001, samples: 480480, rate: 48000, rate diff: 0%, level: 76
+[2023-12-22 23:25:52.965] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 0
+[2023-12-22 23:25:53.436] [8468] (rtcp_sender.cc:474): Sender Report {ssrc: 225628, ntp: 3912269153:1876574290, rtp_timestamp: 45774446, last_rtp_timestamp: 102193920, last_frame_capture_time_ms: 3526374, now_us: 3526374166, rtp_rate: 48}
+[2023-12-22 23:25:53.477] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 215229, noise canceller process time: 82729 [ms]
+[2023-12-22 23:25:53.477] [7154] (captured_audio_processor.cpp:93): Audio frame: 215229, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 10
+[2023-12-22 23:25:56.117] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 432
+[2023-12-22 23:25:56.154] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 432, rtt: 37
+[2023-12-22 23:25:58.177] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 122540, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:25:58.177] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:25:58.177] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 55 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:25:58.177] [7146] (connection.cpp:915): Memory usage: 499 MB, CPU usage: 39%
+[2023-12-22 23:25:59.514] [7102] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1176601432703651922/1176601433236324505"]
+[2023-12-22 23:25:59.673] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-12-22 23:25:59.735] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-12-22 23:26:00.347] [8468] (encryptor.cpp:152): Encrypted audio: 52749, video: 0, failed: 0
+[2023-12-22 23:26:00.348] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:26:00.954] [7966] (udp_socket.cpp:625): Reconnection started, sending echo
+[2023-12-22 23:26:00.990] [7966] (udp_socket.cpp:207): ReconnectionAttemptFinished: succeeded, local address: 79.132.0.243:43065
+[2023-12-22 23:26:01.117] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 433
+[2023-12-22 23:26:01.154] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 433, rtt: 37
+[2023-12-22 23:26:01.159] [7154] (agc_manager_direct.cc:137): Input clipping rate: 0%
+[2023-12-22 23:26:02.975] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 1003, samples: 481440, rate: 48096, rate diff: 0%, level: 168
+[2023-12-22 23:26:02.975] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1000, samples: 480000, rate: 47952, rate diff: 0%, level: 0
+[2023-12-22 23:26:03.482] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 216231, noise canceller process time: 83116 [ms]
+[2023-12-22 23:26:03.482] [7154] (captured_audio_processor.cpp:93): Audio frame: 216231, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 10
+[2023-12-22 23:26:06.117] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 434
+[2023-12-22 23:26:06.151] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 434, rtt: 34
+[2023-12-22 23:26:08.209] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2494, lost: 2, audio frames normal: 4210, silent: 123544, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:26:08.210] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8716, packets lost: 0
+[2023-12-22 23:26:08.210] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 82 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8318, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:26:08.210] [7146] (connection.cpp:915): Memory usage: 462 MB, CPU usage: 67%
+[2023-12-22 23:26:08.299] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetching messages for 1183970662973448222 between undefined and undefined. jump={\"jumpType\":\"ANIMATED\"}"]
+[2023-12-22 23:26:08.420] [7102] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1176601432703651922/1183970662973448222"]
+[2023-12-22 23:26:08.591] [7102] (discord.cpp:763): JS console: ["%c[MessageActionCreators]","Fetched 50 messages for 1183970662973448222 isBefore:false isAfter:false"]
+[2023-12-22 23:26:10.354] [8468] (encryptor.cpp:152): Encrypted audio: 53250, video: 0, failed: 0
+[2023-12-22 23:26:10.354] [8468] (encryptor.cpp:155): Last encrypted frame, type: 0, ssrc: 225628, size: 45, encrypted size: 61
+[2023-12-22 23:26:11.117] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 435
+[2023-12-22 23:26:11.154] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 435, rtt: 36
+[2023-12-22 23:26:12.985] [7151] (audio_device_buffer.cc:434): [REC : 10010msec, 48kHz] callbacks: 999, samples: 479520, rate: 47904, rate diff: 0%, level: 75
+[2023-12-22 23:26:12.985] [7151] (audio_device_buffer.cc:460): [PLAY: 10010msec, 48kHz] callbacks: 1002, samples: 480960, rate: 48048, rate diff: 0%, level: 0
+[2023-12-22 23:26:13.273] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Sending heartbeat"]
+[2023-12-22 23:26:13.321] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","Heartbeat ACK received"]
+[2023-12-22 23:26:13.487] [7154] (captured_audio_processor.cpp:82): Audio frames processed: 217230, noise canceller process time: 83550 [ms]
+[2023-12-22 23:26:13.487] [7154] (captured_audio_processor.cpp:93): Audio frame: 217230, samples: 480, channels: 1, rate: 48000 [Hz], bytes: 2, level: 13
+[2023-12-22 23:26:13.972] [7102] (discord.cpp:763): JS console: ["%c[Routing/Utils]","transitionTo - Transitioning to /channels/1139594986715877397/1139596744364134562"]
+[2023-12-22 23:26:14.267] [7102] (discord.cpp:763): JS console: ["%c[Connection(default)]","updateVideoQuality: {\n    \"remoteSinkWantsMaxFramerate\": 30\n}"]
+[2023-12-22 23:26:14.269] [7146] (audio_send_stream.cc:233): AudioSendStream::ConfigureStream: {rtp: {ssrc: 225628, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 32000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-12-22 23:26:14.269] [7146] (audio_send_stream.cc:233): AudioSendStream::ConfigureStream: {rtp: {ssrc: 225628, extmap-allow-mixed: false, extensions: [{uri: urn:ietf:params:rtp-hdrext:ssrc-audio-level, id: 1}, {uri: https://discord.com/#rtp-hdrext/2018-07-29/speaker, id: 9}, {uri: urn:ietf:params:rtp-hdrext:sdes:mid, id: 10}, {uri: urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id, id: 11}, {uri: urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id, id: 12}], c_name: }, rtcp_report_interval_ms: 5000, send_transport: (Transport), min_bitrate_bps: 32000, max_bitrate_bps: 64000, has audio_network_adaptor_config: false, has_dscp: false, send_codec_spec: {nack_enabled: false, transport_cc_enabled: false, enable_non_sender_rtt: false, cng_payload_type: <unset>, red_payload_type: <unset>, payload_type: 120, format: {name: opus, clockrate_hz: 48000, num_channels: 2, parameters: {minplr: 30, stereo: 0, usedtx: 0, useinbandfec: 1}}}}
+[2023-12-22 23:26:16.117] [7966] (udp_socket.cpp:898): Sending ping to 66.22.243.188:50010, seq: 436
+[2023-12-22 23:26:16.153] [7146] (socket_client.cpp:290): Ping received from 66.22.243.188:50010, seq: 436, rtt: 35
+[2023-12-22 23:26:17.033] [7146] (decryptor.cpp:189): Decrypted audio: 2219, video: 0, failed: 0
+[2023-12-22 23:26:17.033] [7146] (decryptor.cpp:192): Last decrypted frame, type: 0, encrypted frame size: 70, plaintext size: 54, plaintext frame size: 70
+[2023-12-22 23:26:18.368] [7146] (connection.cpp:739): Inbound stats for user: 243153538065104897, audio ssrc: 226358, packets received: 2561, lost: 2, audio frames normal: 4279, silent: 124438, expand: 16, video ssrc: 0, packets received: 0, lost: 0, bytes received: 0, bitrate: 0 [bps], video frames received (key/delta): 0/0, decoded: 0 (rate: 0 [fps]), dropped: 0, resolution: 0 x 0, freeze (count/duration): 0/0, pause (count/duration): 0/0
+[2023-12-22 23:26:18.368] [7146] (connection.cpp:775): Outbound audio stats for user: 195286013109600256, audio ssrc: 225628, packets sent: 8897, packets lost: 0
+[2023-12-22 23:26:18.368] [7146] (connection.cpp:887): Transport stats for user: 195286013109600256, rtt: 39 [ms], available bitrate: 600000 [bps], outbound estimate: 600000 [bps], remb: 0 [bps], inbound estimate: 0 [bps], ssrcs: 225628: {seq: 8513, tseq: -1},  packets sent: 0, received: 0, bytes sent: 0, received: 0
+[2023-12-22 23:26:18.368] [7146] (connection.cpp:915): Memory usage: 525 MB, CPU usage: 28%
+[2023-12-22 23:26:19.720] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","Destroy RTCConnection"]
+[2023-12-22 23:26:19.721] [7102] (discord.cpp:763): JS console: ["%c[RTCControlSocket]","CLOSE"]
+[2023-12-22 23:26:19.721] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","Disconnected from RTC server, clean: true, code: 1000, reason: Force Close, state: RTC_CONNECTED"]
+[2023-12-22 23:26:19.723] [7146] (engine.cpp:1819): obtained codec survey:null
+
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:888): Recording
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:877): StopRecording
+[2023-12-22 23:26:19.724] [7146] (audio_device_buffer.cc:176): HISTOGRAM(WebRTC.Audio.RecordedOnlyZeros): 0
+[2023-12-22 23:26:19.724] [7146] (audio_device_buffer.cc:179): total recording time: 2155374
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:881): output: 0
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:877): StopRecording
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:881): output: 0
+[2023-12-22 23:26:19.724] [7146] (audio_send_stream.cc:183): ~AudioSendStream: 225628
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:846): StopPlayout
+[2023-12-22 23:26:19.724] [7146] (audio_device_buffer.cc:147): total playout time: 2178715
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:850): output: 0
+[2023-12-22 23:26:19.724] [7146] (call.cc:1243): UpdateAggregateNetworkState: aggregate_state change to down
+[2023-12-22 23:26:19.724] [7146] (audio_receive_stream.cc:148): ~AudioReceiveStreamImpl: 226358
+[2023-12-22 23:26:19.724] [7968] (control_handler.cc:80): Bitrate estimate state changed, BWE: 600 kbps.
+[2023-12-22 23:26:19.724] [7967] (pacing_controller.cc:125): PacedSender paused.
+[2023-12-22 23:26:19.724] [7146] (connection.cpp:1353): [callscope] key:
+[2023-12-22 23:26:19.724] [7146] (engine.cpp:616): Stopping audio output device
+[2023-12-22 23:26:19.724] [7146] (audio_device_impl.cc:857): Playing
+[2023-12-22 23:26:19.724] [7146] (call.cc:599): WebRTC.Call.AudioBitrateReceivedInBps, periodic_samples:613, {min:360, avg:59136, max:187592}
+[2023-12-22 23:26:19.724] [7146] (call.cc:607): WebRTC.Call.RtcpBitrateReceivedInBps, periodic_samples:1088, {min:128, avg:256, max:384}
+[2023-12-22 23:26:19.724] [7146] (call.cc:615): WebRTC.Call.BitrateReceivedInBps, periodic_samples:1088, {min:256, avg:33576, max:187848}
+[2023-12-22 23:26:19.724] [7966] (udp_socket.cpp:395): Disconnect
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[Connection(default)]","Connection state change: CONNECTED => DISCONNECTED"]
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","RTC media connection state change: RTC_CONNECTED => DISCONNECTED"]
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","RTC connection state: RTC_CONNECTED => RTC_DISCONNECTED"]
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[Connection(default)]","Connection state change: DISCONNECTED => DISCONNECTED"]
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","RTC media connection state change: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-12-22 23:26:19.725] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","RTC connection state: RTC_DISCONNECTED => RTC_DISCONNECTED"]
+[2023-12-22 23:26:19.728] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","RTC connection state: RTC_DISCONNECTED => DISCONNECTED"]
+[2023-12-22 23:26:19.766] [7102] (discord.cpp:763): JS console: ["%c[RTCConnection(1139594986715877397, default)]","Error: codec survey is not available"]

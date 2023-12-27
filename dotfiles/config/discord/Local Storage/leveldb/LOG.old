@@ -1,0 +1,9 @@
+2023/12/22-22:49:31.287 1aee Reusing MANIFEST /home/jojito/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/12/22-22:49:31.287 1aee Recovering log #12
+2023/12/22-22:49:31.287 1aee Reusing old log /home/jojito/.config/discord/Local Storage/leveldb/000012.log 
+2023/12/22-22:52:00.650 2489 Level-0 table #19: started
+2023/12/22-22:52:00.664 2489 Level-0 table #19: 717190 bytes OK
+2023/12/22-22:52:00.665 2489 Delete type=0 #12
+2023/12/22-23:25:33.758 6765 Level-0 table #21: started
+2023/12/22-23:25:33.766 6765 Level-0 table #21: 15979 bytes OK
+2023/12/22-23:25:33.767 6765 Delete type=0 #18
