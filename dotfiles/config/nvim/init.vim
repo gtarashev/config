@@ -9,8 +9,8 @@ filetype plugin on
 " Use the system clipboard
 set clipboard+=unnamedplus
 
-set colorcolumn=60
 set shiftwidth=4
+set tabstop=4
 set relativenumber number
 set lazyredraw
 set wrap linebreak
