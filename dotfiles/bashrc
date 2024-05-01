@@ -19,3 +19,4 @@ alias search-local="pacman -Qs"
 
 # search for package (remote)
 alias search-remote="sudo pacman -Ss"
+. "$HOME/.cargo/env"

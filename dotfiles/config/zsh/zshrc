@@ -63,7 +63,7 @@ source /home/jojito/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.
 PATH="$HOME/.cargo/bin:$HOME/.local/bin:$HOME/Discord:$PATH"
 
 # alias
-alias ls="exa"
+alias ls="eza"
 alias manmenu="$HOME/scripts/small/dmenumanselect.sh"
 alias readmail="cat /var/spool/mail/$USER"
 alias vi="nvim"
@@ -73,7 +73,7 @@ alias mail="neomutt"
 alias q="exit"
 alias token-master="cat $HOME/github/master-token"
 alias wpaper="$HOME/scripts/small/wpaper.sh"
-alias l="exa -laH"
+alias l="eza -laH"
 alias c="clear -x"
 alias rem="rm -ir"
 alias wpaper="$HOME/github/arch-config/scripts/small/wpaper.sh"
