@@ -64,17 +64,20 @@ PATH="$HOME/.cargo/bin:$HOME/.local/bin:$HOME/Discord:$PATH"
 
 # alias
 alias ls="eza"
-alias manmenu="$HOME/scripts/small/dmenumanselect.sh"
 alias readmail="cat /var/spool/mail/$USER"
 alias vi="nvim"
 alias lout="kill -9 -1"
-alias mkgroff="~/.config/groff/makegroff.bash"
 alias mail="neomutt"
 alias q="exit"
-alias token-master="cat $HOME/github/master-token"
-alias wpaper="$HOME/scripts/small/wpaper.sh"
 alias l="eza -laH"
 alias c="clear -x"
 alias rem="rm -ir"
-alias wpaper="$HOME/github/arch-config/scripts/small/wpaper.sh"
+
+# scripts
+alias manmenu="$HOME/scripts/dmenumanselect.sh"
+alias wpaper="$HOME/scripts/wpaper.sh"
+alias mkgroff="~/.config/groff/makegroff.bash"
+
+# tokens
 alias cm41="cat $HOME/github/master-token-cm41"
+alias token-master="cat $HOME/github/master-token"
