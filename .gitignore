@@ -1,2 +1,3 @@
 /dotfiles/config/nvim/autoload/plugged/*
 /dotfiles/config/zsh/.history
+/dotfiles/config/nvim/autoload
