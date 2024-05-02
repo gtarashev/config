@@ -6,7 +6,7 @@
 export TERMINAL="st"
 
 # start the bar program (which updates xsetroot)
-$HOME/github/arch-config/scripts/small/bar.bash &
+$HOME/github/config/scripts/bar.bash &
 
 # start sxhkd for keybinds
 sxhkd &

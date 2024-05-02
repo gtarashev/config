@@ -1,60 +1,3 @@
-wc -w test1
-wc test1
-clear
-l
-./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam > something
-clear
-./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam > something
-time ./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam > something
-clear
-time ./lz77-encoder.py test1 > test
-cat test
-cat test1 > test
-cat test > test1
-cat test1
-cat test >> test1
-clear
-cat test1
-time ./lz77-encoder.py test1 > test
-wc test1
-wc the-wright\'s-chaste-wife-adam-cobsam
-./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam
-time ./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam
-clear
-wc test1
-vi test1
-vi the-wright\'s-chaste-wife-adam-cobsam
-wc the-wright\'s-chaste-wife-adam-cobsam
-clear
-ls
-cat lz77-encoder.py > testing.py
-clear
-chmod 755 testing.py
-l
-./lz77-encoder.py testing.py > what
-clear
-./lz77-encoder.py testing.py > something
-cat something
-l
-cat testing.py
-clear
-ls
-clear
-ls
-rm testing.py what test test1 something
-clear
-ls
-vi documentation.ms
-clear
-ls
-./lz77-encoder.py the-wright\'s-chaste-wife-adam-cobsam >something
-l something the-wright\'s-chaste-wife-adam-cobsam
-clear
-expr 60 / 84
-clear
-gzip --help
-clear
-ls
 gzip the-wright\'s-chaste-wife-adam-cobsam -c -9
 gzip the-wright\'s-chaste-wife-adam-cobsam -c -9 > something.gzip
 l something.gzip the-wright\'s-chaste-wife-adam-cobsam
@@ -10114,4 +10057,61 @@ rm -rf Nobara-39-Official-2023-12-24.iso
 cd github/config
 vi .gitignore
 git add -A
+q
+vi something
+cd github/config
+readlink ~/.config/nvim
+vi dotfiles/config/nvim/init.vim
+vi something
+vi dotfiles/config/nvim/init.vim
+vi something
+vi dotfiles/config/nvim/init.vim
+vi something
+vi dotfiles/config/nvim/init.vim
+vi something
+vi dotfiles/config/nvim/init.vim
+vi some
+vi dotfiles/config/nvim/init.vim
+vi some
+vi dotfiles/config/nvim/init.vim
+vi kilo
+c
+ls
+vi install.bash
+git add -a
+git add -A
+git stash
+cd
+cd -
+c
+vi dotfiles/config/nvim/init.vim
+git add -A
+git commit -m "removed some outdated stuff out of nvim config" 
+clear
+ls
+vi install.bash
+vi README.md
+git add -A 
+git commit -m "added stylesheet section to readme"
+cd scripts
+ls
+vi bar.bash
+bash
+vi bar.bash
+./bar.bash
+vi bar.bash
+./bar.bash
+vi bar.bash
+clear
+ls
+vi minecraft-server.bash
+clear
+cd ..
+git add -A 
+git commit -m "updated bash scripts in ./scripts to follow the stylesheet"
+clear
+ls
+vi install.bash
+q
+ls
 q
