@@ -1,14 +1,3 @@
-clear
-vi test
-echo "" > test1
-cat test >> test1
-cat test1
-cat test >> test1
-cat test1
-vi test1
-clear
-./lz77-encoder.py test1 > test
-cat test
 wc -w test1
 wc test1
 clear
@@ -10122,3 +10111,7 @@ cd Downloads
 ls
 ls
 rm -rf Nobara-39-Official-2023-12-24.iso
+cd github/config
+vi .gitignore
+git add -A
+q

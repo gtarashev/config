@@ -9,7 +9,6 @@ filetype plugin on
 " Use the system clipboard
 set clipboard+=unnamedplus
 
-set shiftwidth=4
 set tabstop=4
 set relativenumber number
 set lazyredraw
@@ -63,9 +62,3 @@ autocmd BufWritePost *.tex :! pdflatex %
 
 " Set spell language when needed
 autocmd FileType tex,latex,ms setlocal spell spelllang=en_gb
-
-
-" -----Templates-----
-autocmd BufNewFile *.sh 0r ~/.config/nvim/templates/sh
-autocmd BufNewFile *.tex 0r ~/.config/nvim/templates/tex
-autocmd BufNewFile *.ms 0r ~/.config/nvim/templates/ms
