@@ -1,4 +1,5 @@
 - [x] currently creates sym link in directory if it already exists (as link or otherwise)
+- [ ] find a way to check if the rustup was cancelled (manually by user, returns 0)
 - [ ] check dependencies for st/dwm
 - [ ] make st/dwm
 - [ ] download fonts required (or make sure they are present)
