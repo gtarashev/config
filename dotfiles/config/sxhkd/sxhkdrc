@@ -3,7 +3,7 @@ alt + Return
 	st
 # spawn firefox
 alt + w
-	firefox
+	firefox-bin
 # dmenu
 alt + r
 	dmenu_run -fn "JetBrainsMono:size=14"

@@ -18,11 +18,7 @@ setxkbmap -layout gb,bg -option grp:win_space_toggle
 feh --bg-scale $HOME/pictures/wallpapers/wallpaper
 
 # audio
-/usr/bin/pipewire &
-/usr/bin/pipewire-pulse &
-/usr/bin/wireplumber &
-
+gentoo-pipewire-launcher&
 
 # finally start dwm
-# dbus-launch --exit-with-session dwm
-dwm
+dbus-launch --exit-with-session dwm
