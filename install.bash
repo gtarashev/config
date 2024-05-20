@@ -32,7 +32,9 @@ makeSymLink() {
 	ln -fLs $dir/dotfiles/bashrc $HOME/.bashrc && echo 'DONE' || echo 'FAILED'
 	echo -n 'setting up zshrc... '
 	echo "source $HOME/.config/zsh/zshrc" >> $HOME/.zshrc && echo 'DONE' || echo 'FAILED'
-	break
+
+	echo 'setting up ~/scripts'
+	ln -fLs $dir/scripts $HOME
 }
 
 cargoInstall() {
