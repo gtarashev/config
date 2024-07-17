@@ -11,6 +11,9 @@ $HOME/github/config/scripts/bar.bash &
 # start sxhkd for keybinds
 sxhkd &
 
+# load the cursor
+xrdb -merge ~/.Xresources
+
 # using setxkbmap to change keyboard layouts with windows key + space
 setxkbmap -layout gb,bg -option grp:win_space_toggle
 
