@@ -13,8 +13,6 @@ makeSymLink() {
 	mkdir -p $HOME/.config
 	echo 'DONE'
 
-	# get current wd
-	local dir=$(pwd)
 	# loop through directories and create links
 	echo 'creating sym links:'
 	for i in $dir/dotfiles/config/*; do
@@ -44,7 +42,7 @@ cargoInstall() {
 
 	# other rust tools
 	echo 'toolchain setup successful, installing programs'
-	cat cargo-install | xargs -r cargo install 
+	cat $dir/cargo-install | xargs -r cargo install 
 }
 
 makeDwm() {
@@ -66,5 +64,8 @@ main() {
 		cargoInstall
 	fi
 }
+
+# get current wd
+dir=$(pwd)
 
 main
