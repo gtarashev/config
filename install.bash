@@ -42,7 +42,7 @@ cargoInstall() {
 
 	# other rust tools
 	echo 'toolchain setup successful, installing programs'
-	cat $dir/cargo-install | xargs -r cargo install 
+	xargs -r -a $dir/cargo-install cargo install 
 }
 
 makeDwm() {
