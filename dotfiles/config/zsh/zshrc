@@ -80,4 +80,4 @@ alias mkgroff="~/.config/groff/makegroff.bash"
 
 # tokens
 alias cm41="cat $HOME/github/master-token-cm41"
-alias token-master="cat $HOME/github/master-token"
+alias token-master="gpg -d $HOME/github/master-token.asc"
