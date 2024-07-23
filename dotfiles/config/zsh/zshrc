@@ -60,7 +60,7 @@ bindkey -v
 # syntax highlighting
 source /home/jojito/.config/zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-PATH="/home/jojito/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$HOME/Discord:$PATH"
+PATH="/etc/eselect/wine/bin:/home/jojito/go/bin:$HOME/.cargo/bin:$HOME/.local/bin:$PATH"
 
 # alias
 alias ls="eza"
